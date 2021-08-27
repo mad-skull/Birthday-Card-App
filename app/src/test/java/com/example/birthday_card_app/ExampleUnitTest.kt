@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.birthday_card_app
 
 import org.junit.Test
 
