@@ -7,28 +7,33 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/Name_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enter Name"
+        android:text="@string/enter_the_name"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="60dp" />
     <EditText
+        android:id="@+id/Name_edit_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Name"
+        android:ems="10"
+        android:hint="@string/name"
+        android:textAlignment="center"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="100dp" />
     <Button
+        android:id="@+id/submit_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:text="Submit"
+        android:text="@string/submit"
         android:layout_marginTop="160dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
