@@ -8,6 +8,7 @@
 
     <TextView
         android:id="@+id/BirthdayGreetings"
+        android:text="Happy Birthday"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
